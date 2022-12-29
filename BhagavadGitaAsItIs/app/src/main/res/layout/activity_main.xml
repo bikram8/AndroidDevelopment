@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/shree_krishna_ji"
+            app:srcCompat="@drawable/bagh"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="baghawat_gita_as_it_is"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/table_of_content"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:background="@color/teal_700"
+            android:gravity="center"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/chapter1"
+            android:layout_height="40dp"
+            android:textColor="@color/black"
+            android:background="@color/material_dynamic_neutral99"
+            android:text="@string/chapter_1"
+            />
+
+        <Button
+            android:layout_marginTop="5dp"
+            android:id="@+id/chapter2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/material_dynamic_neutral99"
+            android:textColor="@color/black"
+            android:text="@string/chapter_2"
+
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/chapter3"
+            android:layout_marginTop="5dp"
+            android:layout_height="40dp"
+            android:background="@color/material_dynamic_neutral99"
+            android:textColor="@color/black"
+            android:text="@string/chapter_3"
+
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/chapter4"
+            android:layout_marginTop="5dp"
+            android:layout_height="40dp"
+            android:background="@color/material_dynamic_neutral99"
+            android:textColor="@color/black"
+            android:text="@string/chapter_4"
+
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/chapter5"
+            android:layout_marginTop="5dp"
+            android:layout_height="40dp"
+            android:background="@color/material_dynamic_neutral99"
+            android:textColor="@color/black"
+            android:text="@string/chapter_5"
+
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/chapter6"
+            android:layout_marginTop="5dp"
+            android:layout_height="40dp"
+            android:background="@color/material_dynamic_neutral99"
+            android:textColor="@color/black"
+            android:text="@string/chapter_6"
+
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/chapter7"
+            android:layout_marginTop="5dp"
+            android:layout_height="40dp"
+            android:background="@color/material_dynamic_neutral99"
+            android:textColor="@color/black"
+            android:text="@string/chapter_7"
+
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
