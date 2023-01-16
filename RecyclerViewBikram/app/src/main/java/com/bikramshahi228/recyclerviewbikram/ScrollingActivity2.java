@@ -1,4 +1,4 @@
-package com.bikramshahi228.bhagavadgitaasitis;
+package com.bikramshahi228.recyclerviewbikram;
 
 import android.os.Bundle;
 
@@ -11,17 +11,17 @@ import androidx.appcompat.widget.Toolbar;
 
 import android.view.View;
 
-import com.bikramshahi228.bhagavadgitaasitis.databinding.ActivityChapter1Binding;
+import com.bikramshahi228.recyclerviewbikram.databinding.ActivityScrolling2Binding;
 
-public class Chapter1 extends AppCompatActivity {
+public class ScrollingActivity2 extends AppCompatActivity {
 
-    private ActivityChapter1Binding binding;
+    private ActivityScrolling2Binding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        binding = ActivityChapter1Binding.inflate(getLayoutInflater());
+        binding = ActivityScrolling2Binding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         Toolbar toolbar = binding.toolbar;
@@ -33,8 +33,8 @@ public class Chapter1 extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                Snackbar.make(view, "write text", Snackbar.LENGTH_LONG)
+                        .setAction("write text", null).show();
             }
         });
     }
